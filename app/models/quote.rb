@@ -1,2 +1,2 @@
-class Quotae < ApplicationRecord
+class Quote < ApplicationRecord
 end

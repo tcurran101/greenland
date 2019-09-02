@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class QuotaeTest < ActiveSupport::TestCase
+class QuotesTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end
