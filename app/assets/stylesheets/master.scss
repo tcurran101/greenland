@@ -1,5 +1,7 @@
 @import "bootstrap";
 
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
 .clear {
   clear: both;
 }
@@ -43,3 +45,10 @@ header {
 hr {
   clear: both;
 }
+
+h1 {
+  font-family: 'Muli', sans-serif;
+  }
+
+  h2 {font-family: 'Muli', sans-serif;
+  }
