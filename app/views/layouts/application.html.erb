@@ -19,13 +19,13 @@
         you need
         <br />
         to code
+       </div>
       </div>
-    </div>
-    <div class= "col-4 slogan">
-      <div class="col-4">
-        Splurting out unsolicited advise about entrepreneurship since 2016.
+      <div class= "col-4 slogan">
+        <div class="col-4">
+          Splurting out unsolicited advise about entrepreneurship since 2016.
+        </div>
       </div>
-    </div>
       <div class="col-5 links">
         <%= link_to 'Contribute', '#' %>
         <%= link_to 'About', '#' %>
@@ -35,6 +35,19 @@
 
     <br class="clear"/>
 
-    <%= yield %>
+    <div class= "container">
+
+   <%= yield %>
+  </div>
+
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <p class="text-muted>"Place sticky footer content here.
+        </p>
+      </div>
+    </div>
+  </div>
+
   </body>
 </html>
