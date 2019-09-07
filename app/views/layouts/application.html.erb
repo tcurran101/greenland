@@ -47,7 +47,12 @@
             <h4 class="modal-title" id="myModalLabel">Contribute Your Quote</h4>
           </div>
           <div class="modal-body">
-            ...
+           <%= simple_form_for @quote do |f| %>
+              <%= f.input :saying %>
+              <%= f.input :author %>
+              <br />
+              <%= f.submit 'Create', class: 'btn btn-danger' %>
+           <% end %>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
