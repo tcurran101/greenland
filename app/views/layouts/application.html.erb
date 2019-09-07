@@ -22,13 +22,13 @@
        </div>
       </div>
       <div class= "col-4 slogan">
-           Splurting out unsolicited advise about entrepreneurship since 2016.
-       </div>
+             Splurting out unsolicited advise about entrepreneurship since 2016.
+         </div>
       </div>
       <div class="col-5 links">
-        <%= link_to 'Contribute', '#' %>
-        <%= link_to 'About', '#' %>
-    </div>
+          <%= link_to 'Contribute', '#' %>
+          <%= link_to 'About', '#' %>
+      </div>
     </header>
 
     <hr />
@@ -38,12 +38,11 @@
     <div class="container">
       <% if flash[:error].present? %>
         <div class="col-10 offset-1 alert alert-danger">
-          <%= flash[:error] %>
+          <%= flash[:error].html_safe %>
         </div>
       <% end %>
       <%= yield %>
     </div>
-
 
     <div class="footer">
       <div class="container">
