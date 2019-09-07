@@ -46,12 +46,14 @@
               <span aria-hidden="true">×</span>
             </button>
             <h4 class="modal-title" id="myModalLabel">Contribute Your Quote</h4>
+          </div>
            <div class="modal-body">
             <div class="col-lg-6">
             <%= simple_form_for Quote.new do |f| %>
               <%= f.input :saying %>
               <%= f.input :author %>
             </div>
+          </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
               <%= f.submit 'Create', class: 'btn btn-danger' %>
