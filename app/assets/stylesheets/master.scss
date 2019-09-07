@@ -80,3 +80,9 @@ h2 {font-family: 'cantarelloblique', sans-serif;
   font-family: 'cantarellregular', sans-serif;
   padding-top: 26px;
 }
+
+@media (max-width: 750px) {
+  .footer-blurb {
+  text-align: left;
+  }
+}
